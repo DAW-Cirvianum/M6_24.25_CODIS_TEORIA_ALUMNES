@@ -1,0 +1,28 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@eslint/js": "^9.10.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "openmeteo": "^1.1.4"
+  }
+}
