@@ -1,19 +1,11 @@
 async function getUsers(names) {
-<<<<<<< HEAD
-  const token = 'token_github' // Substitueix amb el teu token d'accés
-=======
   const token = 'el_meu_token_de_Gitub' // Substitueix amb el teu token d'accés
->>>>>>> 31a1189 (nous fetch)
 
   for (const name of names) {
     try {
       const response = await fetch(`https://api.github.com/users/${name}`, {
         headers: {
-<<<<<<< HEAD
-          Authorization: `${token}`,
-=======
           Authorization: `token ${token}`,
->>>>>>> 31a1189 (nous fetch)
         },
       })
 
